@@ -36,3 +36,20 @@ const bro = {
 }
 
 const familyMembers = [dad,mom,sis,bro];
+
+
+//lightning exercise dot notation
+
+const wardrobe = {
+    height: 80,
+    manufacturer: "Killibrew & Sons",
+    contents: ["Dress shirt", "Jeans", "Suit", "Skirt", "Tennis shoes"],
+    depth: 38,
+    width: 50
+}
+
+console.log("height",wardrobe.height,"manufacturer" ,wardrobe.manufacturer,"contents", wardrobe.contents,"depth", wardrobe.depth,"height", wardrobe.width);
+
+wardrobe.material = "Cedar";
+console.log(wardrobe.material);
+
