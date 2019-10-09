@@ -53,3 +53,31 @@ console.log("height",wardrobe.height,"manufacturer" ,wardrobe.manufacturer,"cont
 wardrobe.material = "Cedar";
 console.log(wardrobe.material);
 
+//bracket notation lightning exercise
+
+const empireStateBuilding = {
+    stories: 103,
+    height: 1453,
+    address: "350 Fifth Avenue, Manhattan, New York 10118",
+    squareFeet: 2768591,
+    constructionDate: 1931,
+    cost: 40948900,
+    owner: "Empire State Realty Trust",
+    eastWestLength: 424,
+    northSouthLength: 187,
+    architect: "Shreve, Lamb & Harmon"
+}
+
+//exercise 1
+console.log("Stories",empireStateBuilding.stories);
+console.log( "height",empireStateBuilding.height);
+console.log("Square Feet",empireStateBuilding.squareFeet);
+console.log("East-West Length",empireStateBuilding.eastWestLength);
+console.log("North-South Length",empireStateBuilding.northSouthLength);
+
+//exercise 2
+console.log(empireStateBuilding["address"]);
+console.log("Built", empireStateBuilding["constructionDate"]);
+console.log("owned by", (empireStateBuilding["owner"]));
+console.log("cost:", empireStateBuilding["cost"]);
+console.log("designed by:", empireStateBuilding["architect"]);
