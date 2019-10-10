@@ -76,8 +76,16 @@ console.log("East-West Length",empireStateBuilding.eastWestLength);
 console.log("North-South Length",empireStateBuilding.northSouthLength);
 
 //exercise 2
-console.log(empireStateBuilding["address"]);
-console.log("Built", empireStateBuilding["constructionDate"]);
-console.log("owned by", (empireStateBuilding["owner"]));
-console.log("cost:", empireStateBuilding["cost"]);
-console.log("designed by:", empireStateBuilding["architect"]);
+const address = "address";
+const built = "constructionDate";
+const ownedBy = "owner";
+const cost = "cost";
+const designedBy = "architect"
+
+
+
+console.log(empireStateBuilding[address]);
+console.log("Built", empireStateBuilding[built]);
+console.log("owned by", (empireStateBuilding[ownedBy]));
+console.log("cost:", empireStateBuilding[cost]);
+console.log("designed by:", empireStateBuilding[designedBy]);
