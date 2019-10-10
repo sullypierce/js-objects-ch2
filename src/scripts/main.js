@@ -89,3 +89,29 @@ console.log("Built", empireStateBuilding[built]);
 console.log("owned by", (empireStateBuilding[ownedBy]));
 console.log("cost:", empireStateBuilding[cost]);
 console.log("designed by:", empireStateBuilding[designedBy]);
+
+
+//lightning exercise 1
+
+const nashvilleSoftwareSchool = {
+    founded: 2012,
+    director: "John Wark",
+    instructors: {
+        fullTime: ["Jisie", "Brenda", "Steve", "Joe", "Andy"],
+        partTime: ["Zoe", "Nathan"]
+    },
+    address: "500 Interstate Blvd. S"
+}
+
+
+for (let i=0; i<nashvilleSoftwareSchool.instructors.partTime.length; i++) {
+    console.log(nashvilleSoftwareSchool.instructors.partTime[i]);
+}
+for (let i=0; i<nashvilleSoftwareSchool.instructors.fullTime.length; i++) {
+    console.log(nashvilleSoftwareSchool.instructors.fullTime[i]);
+}
+
+//2
+
+console.log(nashvilleSoftwareSchool.instructors.fullTime[4]);
+console.log(nashvilleSoftwareSchool.instructors.partTime[0]);
